@@ -51,5 +51,5 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: Rectify11Installer (x64)
-        path: Rectify11Installer\bin\Release\net6.0-windows\publish\win-x64\Rectify11Installer.exe
+        path: D:\a\Installer3\Installer3\Rectify11Installer\bin\Release\net8.0-windows\win-x64\*.exe
         compression-level: 0
