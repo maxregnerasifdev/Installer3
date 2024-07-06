@@ -46,9 +46,6 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: '16'
-        
-    - name: Run UI changes script
-      run: node ui_changes_script.js
 
     - name: Upload Rectify11Installer
       uses: actions/upload-artifact@v3
